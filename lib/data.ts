@@ -1,0 +1,3 @@
+I'll create the data file at `src/lib/data.ts` (the project's lib folder).
+
+Created `src/lib/data.ts` with the full `Property` type, 12 listings across Lagos, Accra, London, Dubai, and New York (including both new NYC properties), each with a unique high-resolution Unsplash image, plus `upcomingTrip`, `wallet`, and `filterChips` exports. All Lagos listings are flagged with verified 24/7 power, fiber WiFi, and dedicated desks.
