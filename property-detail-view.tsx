@@ -223,3 +223,77 @@ export function PropertyDetailView({
     </div>
   )
 }
+// Add these items to your properties array in lib/data.ts:
+
+{
+  id: "lag-ikeja-marriott",
+  name: "Executive Suite at Ikeja GRA",
+  location: "Ikeja GRA, Lagos",
+  city: "Lagos",
+  neighborhood: "Ikeja GRA",
+  price: 285,
+  rating: 4.95,
+  reviewsCount: 38,
+  badge: "Verified 24/7 Power",
+  amenities: ["24/7 Dual Power", "Fiber WiFi (150 Mbps)", "Airport Shuttle (10 Mins)", "Swimming Pool", "Executive Desk"],
+  images: [
+    "https://images.unsplash.com/photo-1566073771259-6a8506099945?auto=format&fit=crop&w=1200&q=80",
+    "https://images.unsplash.com/photo-1582719478250-c89cae4dc85b?auto=format&fit=crop&w=1200&q=80"
+  ],
+  description: "Premier executive living located in central Ikeja GRA, minutes from Murtala Muhammed International Airport. Features uninterrupted dual-grid power, soundproof glass, and an executive workspace.",
+  pricing: { nights: 1, base: 285, fee: 30 }
+},
+{
+  id: "lag-ikeja-skyview",
+  name: "Capital Aviation Penthouse",
+  location: "Ikeja, Lagos",
+  city: "Lagos",
+  neighborhood: "Ikeja",
+  price: 210,
+  rating: 4.88,
+  reviewsCount: 22,
+  badge: "Verified 24/7 Power",
+  amenities: ["Inverter & Generator Backup", "Fast WiFi", "Dedicated Desk", "Gym", "Concierge"],
+  images: [
+    "https://images.unsplash.com/photo-1590490360182-c33d57733427?auto=format&fit=crop&w=1200&q=80",
+    "https://images.unsplash.com/photo-1502672260266-1c1ef2d93688?auto=format&fit=crop&w=1200&q=80"
+  ],
+  description: "Modern, secure serviced apartment ideal for flight crews, corporate executives, and business consultants needing seamless mainland transit.",
+  pricing: { nights: 1, base: 210, fee: 25 }
+},
+{
+  id: "lag-surulere-residence",
+  name: "Adeniran Ogunsanya Urban Loft",
+  location: "Surulere, Lagos",
+  city: "Lagos",
+  neighborhood: "Surulere",
+  price: 135,
+  rating: 4.82,
+  reviewsCount: 19,
+  badge: "Verified 24/7 Power",
+  amenities: ["Solar + Gen Power", "High-Speed WiFi", "Gated Security", "Smart TV", "Modern Kitchen"],
+  images: [
+    "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&w=1200&q=80",
+    "https://images.unsplash.com/photo-1522708323590-d24dbb6b0267?auto=format&fit=crop&w=1200&q=80"
+  ],
+  description: "Stylish, quiet haven situated off vibrant Adeniran Ogunsanya. Perfect for creatives and travelers who want quick access to Yaba tech hubs and central Lagos.",
+  pricing: { nights: 1, base: 135, fee: 15 }
+},
+{
+  id: "lag-surulere-artisan",
+  name: "Masha Heritage Studio",
+  location: "Surulere, Lagos",
+  city: "Lagos",
+  neighborhood: "Surulere",
+  price: 110,
+  rating: 4.79,
+  reviewsCount: 14,
+  badge: "Verified 24/7 Power",
+  amenities: ["Constant Power", "Workspace", "Air Conditioning", "Private Balcony"],
+  images: [
+    "https://images.unsplash.com/photo-1560448204-e02f11c3d0e2?auto=format&fit=crop&w=1200&q=80",
+    "https://images.unsplash.com/photo-1505691938895-1758d7feb511?auto=format&fit=crop&w=1200&q=80"
+  ],
+  description: "Curated boutique stay offering full privacy, dependable utilities, and easy connectivity across both the Mainland and Island corridors.",
+  pricing: { nights: 1, base: 110, fee: 12 }
+}
