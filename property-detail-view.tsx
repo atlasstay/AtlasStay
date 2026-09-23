@@ -295,7 +295,5 @@ export function PropertyDetailView({
     "https://images.unsplash.com/photo-1505691938895-1758d7feb511?auto=format&fit=crop&w=1200&q=80"
   ],
   description: "Curated boutique stay offering full privacy, dependable utilities, and easy connectivity across both the Mainland and Island corridors.",
-  pricing: { nights: 1, base: 110, fee: 12 }  // Add these items to your properties array in lib/data.ts:
-
-{
- 
+  pricing: { nights: 1, base: 110, fee: 12 }   
+   now the property object is properly closed
